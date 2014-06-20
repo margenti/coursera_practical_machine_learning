@@ -51,7 +51,7 @@ Sample error
 
 With testing data and “predict” Caret-function we can make an idea of the accuracy of the model constructed with the training data.
 Here we will give you a table with some results obtained with different configurations of training and preprocessing
----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 Training method	             Pre-process	        Training data rate   Testing data rate  	Accuracy
 k-nearest neighbors - knn	   None               	20%                  80%	                73%
 Random forest – rf	         None               	20%                  80%                	96%
@@ -59,7 +59,7 @@ k-nearest neighbors - knn	   None                	60%                  40%      
 Random forest – rf	         None               	60%               	 40%                	98.8%
 k-nearest neighbors - knn	   c("center","scale")	60%                  40%                	93.7%
 Random forest - rf	         c("center","scale")	60%	                 40%	                99.3%
-----------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 
 ########
 Boosting
