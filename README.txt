@@ -77,7 +77,7 @@ With testing data and “predict” Caret-function we can make an idea of the ac
 training data. Here we will give you a table with some results obtained with different configurations of training
 and preprocessing
 
---------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Method   Pre-process            Training data rate   Testing data rate      Accuracy
 knn      None                   20%                  80%                    73%
 rf       None                   20%                  80%                    96%
@@ -85,7 +85,7 @@ knn      None                   60%                  40%                    87%
 rf       None                   60%                  40%                    98.8%
 knn      c("center","scale")    60%                  40%                    93.7%
 rf       c("center","scale")    60%                  40%                    99.3%
---------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 ########
 Boosting
